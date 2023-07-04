@@ -3,6 +3,7 @@
 /*Function Declaration
 Declare 3 functions; each function will handle one tax bracket
 */
+//5% tax bracket
 double taxcalculate5(float income)
 {
     float result;
@@ -12,6 +13,7 @@ double taxcalculate5(float income)
 
 }
 
+//20% tax bracket
 double taxcalculate20(float income)
 {
     float result;
@@ -20,6 +22,8 @@ double taxcalculate20(float income)
     return result; 
 
 }
+
+//30% tax bracket
 double taxcalculate30(float income)
 {
     float result;

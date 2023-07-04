@@ -9,10 +9,13 @@ int main()
     scanf("%d %d %d", &sub1, &sub2, &sub3);
 
 
-    if(sub1 <  32 || sub2 < 32 )
+//use the OR || operator
+
+
+    if( sub1 < 32 || sub2 < 32 )
     {
         printf("fail");
-    }else if(sub2 < 32 || sub3 < 32)
+    }else if( sub2 < 32 || sub3 < 32)
     {
         printf("fail");
     }else if( sub1 < 32 || sub3 < 32)
@@ -23,6 +26,7 @@ int main()
         printf("pass");
     }
  
- // the 40% average pass mark is not needed
+ /* the 40% average pass mark does not need to be included 
+*/
     return 0;
 }
